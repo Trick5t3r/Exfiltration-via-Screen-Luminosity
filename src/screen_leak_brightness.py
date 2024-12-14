@@ -1,3 +1,7 @@
+# Ce code modifie la luminosité de tout l'ordinateur
+# en suivant le message binaire donné en entré
+##########
+
 import screen_brightness_control as sbc
 import time
 
