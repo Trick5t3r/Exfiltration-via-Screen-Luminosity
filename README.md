@@ -68,6 +68,10 @@ This repository contains the code, methods, and results of our study.
 
 ## How to Run the Code
 
+0. Get the weigths of YOLOv3
+- Go to "https://pjreddie.com/darknet/yolo/" and download "yolov3-tiny.weights" (too big for github)
+- Put it in the "yolo_files" folder
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/Trick5t3r/Exfiltration-via-Screen-Luminosity.git
