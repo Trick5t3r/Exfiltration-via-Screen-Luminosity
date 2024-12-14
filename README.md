@@ -78,12 +78,16 @@ This repository contains the code, methods, and results of our study.
    cd Exfiltration-via-Screen-Luminosity
    pip install -r requirements.txt```
 
-2. Run this code on the target
+2. Run this code on the target :
    ```bash
-   cd src```
+   cd src
+   ```
+   Then :
    ```bash
-   python screen_leak_detection_person.py```
+   python screen_leak_detection_person.py
+   ```
 
-3. Use a camera and run this code
+4. Use a camera and run this code
    ```bash
-    python track_screen_yolo.py ```
+    python track_screen_yolo.py
+   ```
