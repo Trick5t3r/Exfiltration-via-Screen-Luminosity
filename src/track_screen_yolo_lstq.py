@@ -3,7 +3,7 @@
 # puis calcul une valuer pour chaque écran (la luminosite ou une cetaine couleur moyenne) et la stock
 # puis en choisissant lequel ecran on veut traiter, en fait une analyse et recupere le message binaire
 ##### Parametres #####
-video_path = None #"records/final_003.mov" # Remplacez par le chemin de votre vidéo ou mettre None pour le direct
+video_path = "records/final_003.mov" #"records/final_003.mov" # Remplacez par le chemin de votre vidéo ou mettre None pour le direct
 scale = 0.5  # Ajustez ce facteur pour la taille de l'image
 percentil_selct = 10
 
@@ -15,7 +15,7 @@ model_weights = "yolo_files/yolov3-tiny.weights"
 class_names_file = "yolo_files/coco.names"
 
 # Paramètres globaux
-FREQ_MESSAGE = 0.2  # Fréquence du message
+FREQ_MESSAGE = 0.4  # Fréquence du message
 FPS = 50  # Fréquence d'échantillonnage
 LEN_MSG = 5 * 10 + 2  # Longueur totale du message (bits + padding)
 
