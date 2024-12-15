@@ -72,7 +72,8 @@ This repository contains the code, methods, and results of our study.
    ```bash
    git clone https://github.com/Trick5t3r/Exfiltration-via-Screen-Luminosity.git
    cd Exfiltration-via-Screen-Luminosity
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
+   ```
 
 1. Get the weigths of YOLOv3
 - Go to "https://pjreddie.com/darknet/yolo/" and download "yolov3-tiny.weights" (too big for github)
